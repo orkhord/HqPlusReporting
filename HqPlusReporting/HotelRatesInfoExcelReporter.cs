@@ -62,8 +62,8 @@ namespace HqPlusReporting
             if (exportFilePath != null)
             {
                 path = exportFilePath(data.Hotel);
-                if (!path.EndsWith(".xlsx")) path += ".xlsx";
             }
+            if (!path.EndsWith(".xlsx")) path += ".xlsx";
 
             var fileInfo = new FileInfo(path);
 
