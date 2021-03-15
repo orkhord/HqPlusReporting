@@ -14,4 +14,4 @@ Alternatively, you can pass file path as an argument in command line, for exampl
 report (frameworks, libraries, ready made solutions etc.: free of choice):*
 
 1) The easiest way to do it is to create a task in Windows **Task Scheduler**, specify the conditions that will trigger the task (at time x) and the action (starting console application).
-2) Alternatively, create a long-running application such as **Woker Service** or **Windows Service** and use **Quartz.NET** or **Hangfire** to set schedule.
+2) Alternatively, create a long-running application such as **Worker Service** or **Windows Service** and use **Quartz.NET** or **Hangfire** to set schedule.
